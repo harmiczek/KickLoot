@@ -5,7 +5,7 @@ A lightweight browser extension for **Kick.com** that automatically claims daily
 ## Features
 - **Auto-Claiming**: Automatically interacts with the Kick API to claim daily rewards and stream drops.
 - **Global Badge Indicator**: Shows real-time status (countdown timer, ready state, or success checkmark) directly on the extension icon across any open tab.
-- **Loot Popup**: Click the extension icon to view your reward status and the rarity of your latest claim.
+- **Loot Popup**: Click the extension icon to view your reward status.
 - **Privacy-First**: No data collection, no external scripts, and open-source under the MIT License.
 
 ---
