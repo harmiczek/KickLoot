@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "KickLoot",
+  "version": "2.12.0",
+  "description": "Automatically claims daily rewards and drops on Kick.com, and visually remembers your loot.",
+  "author": "Premiumsmart",
+  "permissions": ["storage"],
+  "action": {
+    "default_title": "KickLoot: Initializing...",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.kick.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": ["*://*.kick.com/*"]
+    }
+  ]
+}
