@@ -13,11 +13,7 @@ A lightweight browser extension for **Kick.com** that automatically claims daily
 ## Installation Guide
 
 ### For Google Chrome
-1. Download or clone this repository to your computer.
-2. Open Google Chrome and navigate to `chrome://extensions/`.
-3. In the top-right corner, enable **Developer mode**.
-4. Click the **Load unpacked** button in the top-left corner.
-5. Select the folder containing the extension files (make sure it includes the `manifest.json` configured for Chrome).
+Get it from store: https://chromewebstore.google.com/detail/kickloot/digjkgbfnnklnpgcdkcahcgajeglnjic?authuser=0&hl=cs
 
 ### For Mozilla Firefox
 1. Download or clone this repository to your computer.
