@@ -16,11 +16,7 @@ A lightweight browser extension for **Kick.com** that automatically claims daily
 Get it from store: https://chromewebstore.google.com/detail/kickloot/digjkgbfnnklnpgcdkcahcgajeglnjic?authuser=0&hl=cs
 
 ### For Mozilla Firefox
-1. Download or clone this repository to your computer.
-2. Open Mozilla Firefox and navigate to `about:debugging#/runtime/this-firefox`.
-3. Click the **Load Temporary Add-on...** button.
-4. Locate and select the `manifest.json` file inside the extension folder.
-*(Note: Temporary installations in Firefox reset when the browser restarts. For permanent use, install it directly from the official Firefox Add-ons store once published).*
+Get it from store: https://addons.mozilla.org/cs/firefox/addon/kickloot/
 
 ---
 
